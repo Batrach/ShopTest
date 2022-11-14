@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Тестовое задание</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__nav">
+                    <ul class="header__nav--menu">
+                        <li>Каталог</li>
+                        <li>Доставка</li>
+                        <li>Оплата</li>
+                        <li>Контакты</li>
+                        <li>О компании</li>
+                    </ul>
+                </div>
+                <div class="header__search">
+                    <div>
+                        <input type="text" class="header__search--input" id="test" placeholder="Поиск названию по картинке">
+                        <button class="header__search--button" >Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div id="img_big_block" style="display: none;"><img src="zoo2394.jpg" width="800px"></div>
+        <div class="content">
+        <h2 class="content__title">Картины эпохи Возрождения</h2>
+        <div class="content__row">
+            <div class="content__block">
+                <img class="content__block__img" id ='img1' src="./img/1.png" alt="">
+                <div class="content__block--lotName">«Рождение Венеры» Сандро Боттичелли</div>
+                <div class="conten__block__buy">
+                    <div class="conten__block__buy--price">
+                        <div class="old-price"><s>2 000 000$</s></div>
+                        <div class="new-price">1 000 000$</div>
+                    </div>
+                    <button class="conten__block__buy--btn">купить</button>
+
+                </div>
+            </div>
+            <div class="content__block">
+                <img class="content__block__img"src="./img/2.png" alt="">
+                <div class="content__block--lotName">«Тайная вечеря»  Леонардо да Винчи</div>
+                <div class="conten__block__buy">
+                    <div class="conten__block__buy--price">
+                    
+                        <div class="new-price">3 000 000$</div>
+                    </div>
+                    <button class="conten__block__buy--btn">купить</button>
+
+                </div>
+            </div>
+            <div class="content__block">
+                <img class="content__block__img"src="./img/3.png" alt="">
+                <div class="content__block--lotName" id="adam">«Сотворение Адама» Микеланджело</div>
+                <div class="conten__block__buy">
+                    <div class="conten__block__buy--price">
+                        <div class="old-price"><s>6 000 000$</s></div>
+                        <div class="new-price">5 000 000$</div>
+                    </div>
+                    <button class="conten__block__basket"><img class="checked" src="./img/Vector.png"> в корзине</button>
+
+                </div>
+            </div>
+            <div class="content__block sold">
+                <img class="content__block__img"src="./img/4.png" alt="">
+                <div class="content__block--lotName">«Урок анатомии»  Рембрандт</div>
+                <div class="conten__block__sold">
+                   <div class="conten__block__buy--soldInfo">Продана на аукционе</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__nav">
+                <ul class="header__nav--menu">
+                    <li>Каталог</li>
+                    <li>Доставка</li>
+                    <li>Оплата</li>
+                    <li>Контакты</li>
+                    <li>О компании</li>
+                </ul>
+            </div>
+            <div class="footer__abaut-us">
+                <div class="footer__abaut-us--phone"><a href="tel: +7(812)555555">+7 (812)555-55-55</a></div>
+                <div class="footer__abaut-us--adress"><img src="./img/geo-alt.svg">г. Санкт-Петербург, ул. Ефимова, 3</div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+    <script src='js.js'></script>
+</body>
+</html>
